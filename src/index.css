@@ -14,3 +14,29 @@
 ::-webkit-scrollbar-thumb:hover {
   background: #7e1440; /* Vinho mais escuro no hover */
 }
+
+/* Espaçamento de segurança para conteúdo em telas grandes (Desktop) */
+@media (min-width: 1024px) {
+  /* Alveja apenas as divs de conteúdo dentro das sections, preservando os fundos */
+  main section > .container,
+  main section > .max-w-7xl,
+  main section > .max-w-5xl,
+  main section > .max-w-4xl,
+  main section > .max-w-3xl,
+  main section > .max-w-2xl {
+    padding-left: 4rem !important;
+    padding-right: 4rem !important;
+  }
+}
+
+@media (min-width: 1280px) {
+  main section > .container,
+  main section > .max-w-7xl,
+  main section > .max-w-5xl,
+  main section > .max-w-4xl,
+  main section > .max-w-3xl,
+  main section > .max-w-2xl {
+    padding-left: 6rem !important;
+    padding-right: 6rem !important;
+  }
+}

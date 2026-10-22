@@ -19,7 +19,7 @@ export const ShareButton = () => {
   };
 
   return (
-    <div className="fixed bottom-28 left-6 z-40 flex flex-col-reverse items-center gap-3">
+    <div className="fixed bottom-6 left-6 z-40 flex flex-col-reverse items-center gap-3">
       <button
         onClick={() => setIsOpen(!isOpen)}
         className="w-12 h-12 bg-white text-vinho border-2 border-vinho rounded-full flex items-center justify-center shadow-lg hover:bg-vinho hover:text-white transition-all animate-fade-in-up"
