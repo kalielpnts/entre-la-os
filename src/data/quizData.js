@@ -1,0 +1,12 @@
+export const QUIZ_DATA = [
+  { c: "Sintomas", q: "Qualquer caroço na mama significa câncer?", o: ["Mito", "Verdade"], a: 0, e: "A maioria dos nódulos (caroços) na mama é benigna (como cistos ou fibroadenomas). Mas todos devem ser investigados." },
+  { c: "Idade", q: "Mulheres jovens (menos de 40 anos) não precisam se preocupar com câncer de mama.", o: ["Verdade", "Mito"], a: 1, e: "Embora mais raro, o câncer pode ocorrer em jovens. Conhecer as próprias mamas e relatar alterações é essencial em qualquer idade." },
+  { c: "Prevenção", q: "Hábitos saudáveis, como exercícios e boa alimentação, podem reduzir o risco de câncer de mama.", o: ["Mito", "Verdade"], a: 1, e: "Cerca de 30% dos casos podem ser evitados com hábitos saudáveis, controle de peso e evitando o consumo de álcool." },
+  { c: "Rastreamento", q: "A mamografia é capaz de detectar tumores milimétricos, muito antes de serem palpáveis.", o: ["Verdade", "Mito"], a: 0, e: "Exatamente! Por isso o exame de rastreamento periódico é fundamental para o diagnóstico precoce." },
+  { c: "Sintomas", q: "Apenas dor e caroços são sintomas de câncer de mama.", o: ["Verdade", "Mito"], a: 1, e: "Alterações no mamilo, secreção com sangue, pele com aspecto de casca de laranja e inchaços também são sinais de alerta." },
+  { c: "Mitos", q: "O uso prolongado de anticoncepcionais orais pode aumentar levemente o risco?", o: ["Mito", "Verdade"], a: 1, e: "Alguns estudos mostram um aumento pequeno e temporário do risco, que diminui após interromper o uso. Converse sempre com seu médico." },
+  { c: "Tratamento", q: "Se descoberto no início, as chances de cura do câncer de mama chegam a 95%.", o: ["Verdade", "Mito"], a: 0, e: "O diagnóstico precoce é a melhor arma. Tumores menores têm tratamentos menos agressivos e altíssima taxa de sucesso." },
+  { c: "Mitos", q: "Amamentar ajuda a proteger a mulher contra o câncer de mama.", o: ["Mito", "Verdade"], a: 1, e: "A amamentação reduz o número de ciclos menstruais ao longo da vida e estimula a renovação celular saudável das mamas, sendo um fator protetor." },
+  { c: "Hereditariedade", q: "Ter mãe ou irmã que teve a doença significa que eu também terei.", o: ["Verdade", "Mito"], a: 1, e: "Aumenta o risco, mas não é uma certeza. Apenas cerca de 5% a 10% dos casos têm origem hereditária forte." },
+  { c: "Homens", q: "Homens também podem ter câncer de mama.", o: ["Mito", "Verdade"], a: 1, e: "Sim! Embora representem cerca de 1% do total de casos, os homens também possuem tecido mamário e podem desenvolver a doença." }
+];

@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    -webkit-text-size-adjust: 100%;
+    scroll-behavior: smooth;
+    background-color: #FFFCFD;
+  }
+  body {
+    overflow-wrap: break-word;
+    color: #2A0820;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
+
+.skip-link {
+  position: absolute;
+  top: -40px;
+  left: 0;
+  background: #9E1B51;
+  color: white;
+  padding: 8px 16px;
+  z-index: 100;
+  transition: top 0.2s;
+  font-weight: bold;
+}
+.skip-link:focus { top: 0; }
+
+.focus-ring:focus-visible {
+  outline: 3px solid #D65E87;
+  outline-offset: 3px;
+}
+
+.glass-nav {
+  background: rgba(255, 252, 253, 0.9);
+  backdrop-filter: blur(16px);
+  border-bottom: 1px solid rgba(232, 204, 213, 0.4);
+}
+
+.smooth-shadow {
+  box-shadow: 0 12px 35px rgba(42, 8, 32, 0.06);
+}
+
+/* Scrollbar estilizada para o chat da IA */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #E8CCD5;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #D65E87;
+}

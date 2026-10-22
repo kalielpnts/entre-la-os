@@ -1,0 +1,16 @@
+
+/* Scrollbar Personalizada */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #fdf2f8; /* Fundo rosa bem clarinho (nevoa/marfim) */
+}
+::-webkit-scrollbar-thumb {
+  background: #9d174d; /* Cor vinho/ameixa */
+  border-radius: 10px;
+  border: 2px solid #fdf2f8;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #7e1440; /* Vinho mais escuro no hover */
+}
